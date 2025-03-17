@@ -9,8 +9,6 @@ header, nav ul, #content-wrapper {
     margin-left: auto;
     margin-right: auto;}
 
-a {color:#008000}
-
 header img {position: absolute;
     top: 0;
     left: 0;}
@@ -19,9 +17,7 @@ header {position: relative;}
 
 header h1, nav ul {padding-left: 50px;}
 
-header {
-    background-color: black;
-}
+header {background-color: black;}
 
 /* Navbar */
 nav ul {list-style-type: none;}
