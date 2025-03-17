@@ -18,3 +18,7 @@ header img {position: absolute;
 header {position: relative;}
 
 header h1, nav ul {padding-left: 50px;}
+
+header {
+    background-color: black;
+}
