@@ -36,5 +36,5 @@ nav a {display: inline-block;
     }
 
 nav a:hover {
-    background-color: black;
+    background-color: grey;
     color: #9ae39a;
