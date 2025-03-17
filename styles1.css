@@ -1,0 +1,12 @@
+body {font-size: 16px;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;}
+
+header, nav ul, #content-wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;}
+
+a {color:#008000}
