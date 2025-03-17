@@ -22,3 +22,19 @@ header h1, nav ul {padding-left: 50px;}
 header {
     background-color: black;
 }
+
+/* Navbar */
+nav ul {list-style-type: none;}
+
+nav ul li {display: inline-block;}
+
+nav a {display: inline-block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+nav a:hover {
+    background-color: black;
+    color: #9ae39a;
