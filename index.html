@@ -9,6 +9,70 @@
   <link rel="stylesheet" href="styles1.css">
   <title>Thrystix</title>
 
+  <style>
+    body p {
+        color: #9A0000;  
+        font-size: large;
+        font-weight: 500;    
+        width: 1200px;
+        border: 5px solid black;
+        padding: 20px;
+        padding-bottom: 50px;
+        margin: 10px;
+        background-color: #FCFCFF;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    section {
+      padding-top: 10px;
+    }
+
+    .imagehome {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border: 5px solid black;
+    }
+
+    .album-cover{
+      display: block;
+      border: 5px solid black;
+    }
+
+    .spotify{
+      display: block;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .image {
+      padding-right: 10px;
+    }
+
+    .image2 {
+      padding-left: 30px;
+    }
+
+    .text {
+      display: block;
+      border: 5px solid black;
+      background-color: #FCFCFF;
+      color: black;
+    }
+
+    .video1 {
+      display: block;
+      margin: auto;
+      border: 5px solid black;
+    }
+    
+  </style>
+
 </head>
 
 <body>
@@ -19,16 +83,18 @@
             <li> <a href="https://haydenlr7.github.io/thrystix.site/"> Home</a> | <a href="/thrystix.site/meet_the_band.html"> Meet the Band</a> | <a href="/thrystix.site/our_music.html"> Our Music</a> | <a href="/thrystix.site/contact_us.html"> Contact Us</a></li>
           </ul>
         </nav>
-        <h2>
+        <div>
             <a href="https://www.youtube.com/@ThrystixOfficial"> <img src="Images/youtube-icon.png" alt="youtube" width="50"></a>
             <a href="https://www.instagram.com/thrystixofficial/"> <img src="Images/instagram-icon.png" alt="instagram" width="50"></a>
-            <a href="https://www.tiktok.com/@thrystixofficial?_t=ZP-8u20vOzrKtL&_r=1&fbclid=PAZXh0bgNhZW0CMTEAAaZ6dk4aH4ai7X8J9Gwd7ax6CjoE35U9RWpAaS8gNRzNNzLGhAeIq15RTs0_aem_WoYQmqnR-9eqvIoNfBRcWg"> <img src="Images/tiktok-icon.png" alt="tiktok" width="50"></a>
-        </h2>
+            <a href="https://www.tiktok.com/@thrystixofficial?_t=ZP-8u20vOzrKtL&_r=1&fbclid=PAZXh0bgNhZW0CMTEAAaZ6dk4aH4ai7X8J9Gwd7ax6CjoE35U9RWpAaS8gNRzNNzLGhAeIq15RTs0_aem_WoYQmqnR-9eqvIoNfBRcWg"> <img src="Images/tiktok-icon.png" alt="tiktok" width="40"></a>
+        </div>
     </header>
 
 
     <section>
-        <img src="Images/home-image.jpg" alt="band-practice" width="1080">
+        <div>
+          <img src="Images/home-image.jpg" alt="band-practice" width="1080" class="imagehome">
+        </div>
             <p>
             Thrystix is a Heavy Metal band originating from Columbia SC, formed in 2024 by guitarist Joey Gardener, and drummer Hayden Robinson. They were joined by bassist Wennie 
             just prior to the summer of ‘24, and have been thrashing together ever since. Their biggest inspirations are bands from the legendary Metallica, Anthrax, and Pantera, all the way 
@@ -40,39 +106,47 @@
             80’s. A true garage-band experience.
             Photo Credit: Dani Cabaub
             </p>
-        <h2>
-            <img src="Images/mandatory-mayham.jpg" alt="album-cover" width="250">
-            <img src="Images/spotify-dark.png" alt="big-spotify" width="250">
-        </h2>  
-          <h3>Mandatory Mayhem</h3>
-            <ol>
-                <li>Animosity</li>
-              
-                <li>The Rain</li>
-              
-                <li>Badlands Woman</li>
-    
-                <li>Faithful Vendetta</li>
-    
-                <li>Devil's World</li>
-              
-                <li>Anxious Society</li>
-    
-                <li>Lysiris</li>
-    
-                <li>TBD</li>
-    
-                <li>TBD</li>
-    
-                <li>TBD</li>
-    
-                <li>TBD</li>
-    
-                <li>TBD</li>
-            </ol>
-            <img src="Images/feb-2025-calendar.jpg" alt="calendar" width="600" height="480">
+            
+          <div class="container">
+            <div class="image">
+              <img src="Images/mandatory-mayham.jpg" alt="album-cover" width="250" class="album-cover">
+              <img src="Images/spotify-dark.png" alt="big-spotify" width="250" class="spotify">
+            </div>
+            <div class="text">
+                <h3>Mandatory Mayhem</h3>
+              <ol>
+                  <li>Animosity</li>
+                
+                  <li>The Rain</li>
+                
+                  <li>Badlands Woman</li>
+      
+                  <li>Faithful Vendetta</li>
+      
+                  <li>Devil's World</li>
+                
+                  <li>Anxious Society</li>
+      
+                  <li>Lysiris</li>
+      
+                  <li>TBD</li>
+      
+                  <li>TBD</li>
+      
+                  <li>TBD</li>
+      
+                  <li>TBD</li>
+      
+                  <li>TBD</li>
+              </ol>
+            </div>
+            <div class="image2">
+              <img src="Images/feb-2025-calendar.jpg" alt="calendar" width="600" height="480">
+            </div>
+          </div>
+            
         
-        <video controls width="600">
+        <video controls width="600" class="video1">
             <source src="Videos/thrystixpractice_video.mp4" type="video/mp4">
         </video>
 
