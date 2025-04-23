@@ -1,64 +1,81 @@
-body {font-size: 16px;
-    line-height: 1.5;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    background-color: #A38560;}
-    
-
-nav ul, #content-wrapper{
-    display: flex;
-    justify-content: flex-end;}
-
-header img, #content-wrapper{
-    position: relative;
+/* General body styling */
+body {
+    font-size: 16px; /* Sets base font size */
+    line-height: 1.5; /* Improves text readability */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Sets a clean, sans-serif font stack */
+    margin: 0; /* Removes default browser margin */
+    background-color: #A38560; /* Light brown background color */
+  }
+  
+  /* Flex layout for navbar and content wrapper */
+  nav ul, #content-wrapper {
+    display: flex; /* Uses flexbox layout */
+    justify-content: flex-end; /* Aligns items to the right */
+  }
+  
+  /* Positioning for header image and content wrapper */
+  header img, #content-wrapper {
+    position: relative; /* Allows positioning using top/left */
     top: 0;
-    left: 0;}
-
-header {position: relative;
-    background-color: black;
-    padding-bottom: 10px;}
-
-header div {display: flex;
-    justify-content: flex-end;}
-
-
-/* Footer */
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;}
-
-/* Navbar */
-nav ul {list-style-type: none;}
-
-nav ul li {display: inline-block;}
-
-nav a {display: inline-block;
-    padding: 1rem;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    }
-
-nav a:hover {
-    background-color: grey;
-    color: #9ae39a;
-
-    body p {
-        color: #9A0000;  
-        font-size: large;
-        font-weight: 500;    
-        width: 1200px;
-        border: 5px solid black;
-        padding: 20px;
-        padding-bottom: 50px;
-        margin: 10px;
-        background-color: #FCFCFF;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-/* Home Page */
-    
-    
-/* Meet the Band */
+    left: 0;
+  }
+  
+  /* Header styling */
+  header {
+    position: relative; /* Allows child elements to be positioned relative to this */
+    background-color: black; /* Sets header background to black */
+    padding-bottom: 10px; /* Adds space below the header */
+  }
+  
+  /* Aligns elements inside header to the right */
+  header div {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: black; /* Footer background color */
+    color: white; /* Text color */
+    text-align: center; /* Centers the footer text */
+  }
+  
+  /* Navbar unordered list */
+  nav ul {
+    list-style-type: none; /* Removes default list bullets */
+  }
+  
+  /* List items in navbar displayed inline */
+  nav ul li {
+    display: inline-block; /* Aligns nav items horizontally */
+  }
+  
+  /* Navigation links styling */
+  nav a {
+    display: inline-block; /* Makes links block-level inside inline layout */
+    padding: 1rem; /* Adds spacing around link text */
+    color: white; /* Sets text color */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Makes text bold */
+  }
+  
+  /* Hover effect for navigation links */
+  nav a:hover {
+    background-color: grey; /* Background changes to grey on hover */
+    color: #9ae39a; /* Light green text color on hover */
+  }
+  
+  /* Paragraph styling inside body (appears to be accidentally nested) */
+  body p {
+    color: #9A0000; /* Dark red text */
+    font-size: large; /* Large font size */
+    font-weight: 500; /* Medium weight */
+    width: 1200px; /* Fixed width */
+    border: 5px solid black; /* Adds a black border */
+    padding: 20px; /* Padding inside the paragraph */
+    padding-bottom: 50px; /* Extra bottom padding */
+    margin: 10px; /* Margin outside the paragraph */
+    background-color: #FCFCFF; /* Light off-white background */
+    margin-left: auto; /* Centers the paragraph horizontally */
+    margin-right: auto;
+  }
