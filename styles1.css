@@ -65,17 +65,4 @@ body {
     color: #9ae39a; /* Light green text color on hover */
   }
   
-  /* Paragraph styling inside body (appears to be accidentally nested) */
-  body p {
-    color: #9A0000; /* Dark red text */
-    font-size: large; /* Large font size */
-    font-weight: 500; /* Medium weight */
-    width: 1200px; /* Fixed width */
-    border: 5px solid black; /* Adds a black border */
-    padding: 20px; /* Padding inside the paragraph */
-    padding-bottom: 50px; /* Extra bottom padding */
-    margin: 10px; /* Margin outside the paragraph */
-    background-color: #FCFCFF; /* Light off-white background */
-    margin-left: auto; /* Centers the paragraph horizontally */
-    margin-right: auto;
-  }
+ 
