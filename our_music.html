@@ -7,9 +7,101 @@
   <meta name="author" content="Hayden Robinson">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles1.css">
+  <title>Our Music</title>
 
-    <title>Our Music</title>
-  </head>
+  <style>
+/* General page layout */
+body {
+  font-family: Arial, sans-serif; /* Sets a clean, sans-serif font */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  color: #000; /* Sets default text color to black */
+}
+
+/* Centered section for titles with spacing */
+.title2 {
+  text-align: center; /* Centers the text inside this element */
+  margin: 20px auto; /* Adds vertical spacing and centers horizontally */
+  max-width: 1200px; /* Limits maximum width of the container */
+}
+
+/* Styling for images inside h2 (like icons for Spotify or YouTube) */
+h2 img {
+  background-color: white; /* Gives icons a white background */
+  vertical-align: middle; /* Aligns icons with text baseline */
+  margin-right: 10px; /* Adds space between icon and text */
+}
+
+/* General styling for all images (e.g., album covers, logos) */
+img {
+  border: 5px solid black; /* Adds a thick black border */
+  margin: 10px; /* Adds space around each image */
+}
+
+/* Styling for the list of songs */
+.songlist {
+  display: block; /* Makes element a block-level box */
+  border: 5px solid black; /* Adds black border */
+  background-color: #FCFCFF; /* Very light background */
+  color: black; /* Sets text color */
+  list-style: none; /* Removes default list styling (bullets) */
+  font-size: 20px; /* Increases text size */
+  margin: auto; /* Centers the list horizontally */
+  width: 250px; /* Sets fixed width */
+  height: 250px; /* Sets fixed height */
+  float: right; /* Aligns element to the right */
+  margin-top: 25px; /* Adds spacing from the top */
+}
+
+/* Inline section styling (e.g., grouped content blocks) */
+.inline,
+.inline2 {
+  border: 5px solid black; /* Adds a solid black border */
+  background-color: #2b2828; /* Dark background color */
+  color: black; /* Text color (may be hard to read on dark bg) */
+  list-style: none; /* Removes list bullets */
+  font-size: 20px; /* Sets font size */
+  margin: auto; /* Centers block horizontally */
+  width: 750px; /* Sets block width */
+  height: 400px; /* Sets block height */
+}
+
+/* Left-floating elements (e.g., images or divs) */
+.object {
+  float: left; /* Floats element to the left */
+}
+
+/* Right-floating elements */
+.object2 {
+  float: right; /* Floats element to the right */
+}
+
+/* Additional title block styling */
+.title {
+  display: block; /* Makes element a block */
+  border: 5px solid black; /* Adds black border */
+  background-color: #FCFCFF; /* Light background */
+  color: black; /* Text color */
+  list-style: none; /* Removes list bullet points */
+  font-size: 20px; /* Sets text size */
+  margin: auto; /* Centers element horizontally */
+  margin-top: 20px; /* Adds top spacing */
+  width: 250px; /* Fixed width */
+}
+
+/* Styling for embedded videos */
+iframe {
+  display: block; /* Makes the iframe behave like a block */
+  margin: 30px auto; /* Centers iframe with spacing above/below */
+  border: 5px solid black; /* Adds black border */
+}
+
+/* Link hover effect */
+a:hover {
+  color: #600; /* Changes text color to dark red on hover */
+}
+  </style>
+</head>
 
 <body>
     <header>
@@ -24,44 +116,63 @@
             <a href="https://www.instagram.com/thrystixofficial/"> <img src="Images/instagram-icon.png" alt="instagram" width="50"></a>
             <a href="https://www.tiktok.com/@thrystixofficial?_t=ZP-8u20vOzrKtL&_r=1&fbclid=PAZXh0bgNhZW0CMTEAAaZ6dk4aH4ai7X8J9Gwd7ax6CjoE35U9RWpAaS8gNRzNNzLGhAeIq15RTs0_aem_WoYQmqnR-9eqvIoNfBRcWg"> <img src="Images/tiktok-icon.png" alt="tiktok" width="40"></a>
         </div>
+        <h1>Find Our Music</h1>
     </header>
+  
 
-  <h2>
+  <h1 class="title">
+    Spotify
+  </h1>
+
+  <h2 class="title2">
     <a href="https://open.spotify.com"> <img src="Images/spotify-dark.png" alt="spotify" width="50"></a> Spotify
   </h2>
-  <h2>
+
+  <section class="inline">
+    
+  <h2 class="object">
     <a href="https://open.spotify.com"> <img src="Images/thrystix_logo_round.png" alt="band_spotify" width="237"></a>
   </h2>
-  <h1>
-    Thrystix
-  </h1>
-  <ul>
-    <li>
-      1. Faithful Vendetta
-      2. Devil's World
-      3. Lysiris
-      4. The Rain
-      5. Badlands Woman
-    </li>
-  </ul>
-  <h1>
+  
+ 
+
+  <div class="songlist">
+    <ul>
+      <li>
+        1. Faithful Vendetta
+        <br>
+        2. Devil's World
+        <br>  
+        3. Lysiris
+        <br>
+        4. The Rain
+        <br>
+        5. Badlands Woman
+      </li>
+    </ul>
+  </div>
+  </div>
+  </section>
+  <h1 class="title">
     Latest Release
   </h1>
-  <h2>
+
+  <h2 class="title2">
+    <a href="https://www.youtube.com/@ThrystixOfficial"> <img src="Images/youtube-icon.png" alt="youtube" width="50"></a> Youtube
+  </h2>
+
+  <section class="inline2">
+  <h2 class="object">
     <img src="Images/mandatory-mayham.jpg" alt="album" width="225">
   </h2>
 
   
-  <h2>
-    <a href="https://www.youtube.com/@ThrystixOfficial"> <img src="Images/youtube-icon.png" alt="youtube" width="50"></a> Youtube
-  </h2>
-  <h2>
+  
+  <h2 class="object2">
      <a href="https://www.youtube.com/@ThrystixOfficial"> <img src="Images/channel_profile.jpg" alt="band_youtube" width="237"></a>
   </h2>
-  <h1>
-    Thrystix
-  </h1>
-  <h2>
+  </section>
+  <h2 class="title">
     Latest Video
   </h2>
 
